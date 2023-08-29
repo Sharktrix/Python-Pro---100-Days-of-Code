@@ -74,6 +74,8 @@ Type conversion, also known as type casting, is the process of converting a vari
 
 ### Mathematical Operations
 
+Mathematical operations involve calculations using arithmetic operators such as addition (+), subtraction (-), multiplication (*), division (/), and exponentiation (**). The order of operations is determined by the PEMDASLR acronym, which stands for Parentheses, Exponents, Multiplication and Division (from left to right), and Addition and Subtraction (from left to right).
+
 ```python 
 
 3 + 5
@@ -103,6 +105,8 @@ print(2 ** 3)
 
 ```
 ### Number Manipulation and F Strings in Python 
+
+Number manipulation refers to manipulating numerical values in various ways, including performing calculations, converting between different data types (like int and float), and rounding numbers using functions like int(), round(), and // for floor division. F-strings in Python are a way to format strings that allows you to embed expressions, variables, and values directly within the string using curly braces {} preceded by an 'f'.
 
 ```python 
 
