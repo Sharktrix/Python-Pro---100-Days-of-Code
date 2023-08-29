@@ -1,3 +1,5 @@
+# Day 2 Project : TIP CALCULATOR 
+
 ## Python Primitive Data Types
 
 ### String
