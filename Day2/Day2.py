@@ -30,3 +30,19 @@ second_digit = two_digit_number[1] # Using Subcript
 
 result = int(first_digit) + int(second_digit) # Type Converting to convert from str to int 
 print(result)
+
+
+# Exercise 2.2 
+
+# PEMDASLR 
+# ()
+# **
+# * / 
+# + - 
+
+print (3 * (3 + 3) / 3 - 3)
+
+# Exercise 2.3 
+
+# Calculating Body Mass Index 
+

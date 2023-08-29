@@ -69,3 +69,34 @@ Type checking involves verifying the data types of variables before performing o
 
 ### Type Conversion
 Type conversion, also known as type casting, is the process of converting a variable from one data type to another, such as converting an integer to a string with Python's `str()` function.
+
+### Mathematical Operations
+
+```python 
+
+3 + 5
+7 - 4
+3 * 2
+6 / 3
+2 ** 3
+
+PEMDASLR
+
+()  (Parentesis)
+**  (Exponents)
+* / (Multiplication and Division)
++ - (Addition and Subtraction)
+
+print(3 * 3 + 3 / 3 - 3)
+
+
+
+print (6 / 3)
+
+print(type(6 / 3)) #Insert Type to check the type of data type)
+
+# In Python, in division it always gives a float.
+
+print(2 ** 3)
+
+```
