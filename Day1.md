@@ -1,3 +1,5 @@
+## Day 1 Project : Band Name Generator
+
 ### String Manipulation
 
 String manipulation is a fundamental skill in computer programming and is especially useful in tasks ranging from data preprocessing to algorithmic problem solving. In various programming languages like Python, Java, and C++, strings are treated as arrays of characters, providing a wide array of built-in methods to manipulate them. Operations such as substring extraction, case conversion, trimming, and concatenation are common. Regular expressions offer more advanced capabilities, allowing for complex pattern matching and text extraction. As text data is ubiquitous in modern computing—from file handling to web scraping—proficiency in string manipulation is crucial for developers in many fields, including data science.
