@@ -44,5 +44,42 @@ print (3 * (3 + 3) / 3 - 3)
 
 # Exercise 2.3 
 
-# Calculating Body Mass Index 
+# Calculating Body Mass Index - BMI Calculator
+
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+# BMI = weight (kg) / height squared (m2)
+
+bmi = weight / height ** 2 # Using the exponent operator ** 
+print(type(height)) # Type checking gives str is used as data types
+
+bmi = float(weight) / float(height) ** 2 # Type converting to float
+print(bmi) # Massive floating point number , should be a int whole number
+
+bmi = float(weight) / float(height) ** 2 
+bmi_as_int = int(bmi) #Convert float point number into int whole number
+print(bmi_as_int)
+
+
+# Alternate Way of the Same Code 
+
+weight_as_int = int(weight)
+height_as_float = float(height)
+
+#Using the exponent operator ** 
+bmi = weight_as_int / height_as_float ** 2 
+# or using multiplication and PEMDAS
+bmi = weight_as_int / (height_as_float * height_as_float)
+
+bmi_as_int = int(bmi)
+
+print(bmi_as_int)
+
+
+
 
