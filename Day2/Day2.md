@@ -60,3 +60,12 @@ True
 False
 
 ```
+
+#### Type Error
+A Type Error occurs when an operation is performed on an inappropriate data type, like trying to concatenate a string with an integer in Python.
+
+### Type Checking
+Type checking involves verifying the data types of variables before performing operations on them. This can be done statically before runtime or dynamically during execution.
+
+### Type Conversion
+Type conversion, also known as type casting, is the process of converting a variable from one data type to another, such as converting an integer to a string with Python's `str()` function.
