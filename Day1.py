@@ -17,3 +17,15 @@ input("What is your name?")
 
 #Exercise 3.3 - Input Function - To find length
 print(len ( input("What is your name? ") ) )
+
+#Exercise 4 - Variables
+
+# 1
+name = input("What is your name? ")
+length = len(name)
+print(length)
+
+# 2
+user_name = input("What is your name?")
+length1 = len(user_name)
+print(length1)
