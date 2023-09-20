@@ -72,7 +72,7 @@ else:
 
 
 
-# Day 3.4 Exercise
+# Day 3.4 Exercise Pizza Delivery
 
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size do you want? S, M or L? ")
@@ -98,3 +98,48 @@ if extra_cheese == "Y":
     bill += 1
 
 print(f"Your final bill is ${bill}")
+
+
+
+
+# Day 3.5 Exercise Love Calculator
+
+# Get names from the user
+name1 = input("Enter the first name: ")
+name2 = input("Enter the second name: ")
+
+# Convert names to lowercase for uniformity
+name1 = name1.lower()
+name2 = name2.lower()
+
+# Concatenate names to make it easier to count
+combined_names = name1 + name2
+
+# Count the occurrences of each letter in "TRUE"
+t = combined_names.count("t")
+r = combined_names.count("r")
+u = combined_names.count("u")
+e = combined_names.count("e")
+
+# Count the occurrences of each letter in "LOVE"
+l = combined_names.count("l")
+o = combined_names.count("o")
+v = combined_names.count("v")
+e = combined_names.count("e")  # Note: 'e' was already counted, but it's okay to count again
+
+# Calculate the totals for TRUE and LOVE
+total_true = t + r + u + e
+total_love = l + o + v + e
+
+# Combine the totals to make a two-digit number
+love_score = int(str(total_true) + str(total_love))
+
+# Generate and print the love score message
+if love_score < 10 or love_score > 90:
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif 40 <= love_score <= 50:
+    print(f"Your score is {love_score}, you are alright together.")
+else:
+    print(f"Your score is {love_score}.")
+
+
