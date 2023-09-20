@@ -42,6 +42,23 @@ else:
     print(f"Your bmi is {bmi}, you are clinically obese.")
 
 
+# Exercise 3-3 Exercise Interactive Coding - Leap Year
+
+year = int(input("Which year do you want to check?"))
+
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not Leap year.")
+    else:
+        print("Leap year.")
+else:
+    print("Not Leap year.")
+
+
+# Day 3.4 Exercise
 
 
 

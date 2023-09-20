@@ -60,4 +60,86 @@ else :
 ```
 
 
-Day 3 : Zainab 
+# if / elif/ else - Multiple if 
+
+```python
+if condition1:
+    do A
+elif condition2:
+    do B
+else: 
+    do C 
+```
+Only one condition is carried out 
+
+```python
+if condition1:
+    do A
+if condition2:
+    do B
+if condition3:
+    do C
+```
+
+All 3 conditions can be carried out at once. 
+
+#### In most programming languages, including Python, `if`, `elif` (else-if), and `else` statements are used for conditional branching. These statements allow you to execute different blocks of code based on specific conditions. Here is a breakdown of how they work:
+
+### `if` statement:
+
+- **Purpose**: Checks if a condition is `True`.
+- **Syntax**:
+  ```python
+  if condition:
+      # Code block to execute if the condition is True
+  ```
+
+### `elif` statement:
+
+- **Purpose**: Checks another condition if the previous `if` or `elif` conditions were not met.
+- **Syntax**:
+  ```python
+  elif another_condition:
+      # Code block to execute if the another_condition is True
+  ```
+- **Note**: An `elif` statement must follow an `if` statement.
+
+### `else` statement:
+
+- **Purpose**: Executes a block of code if none of the above conditions are met.
+- **Syntax**:
+  ```python
+  else:
+      # Code block to execute if none of the above conditions are True
+  ```
+
+### Example:
+
+Here is an example to demonstrate how `if`, `elif`, and `else` work together in Python:
+
+```python
+x = 10
+
+if x > 10:
+    print("x is greater than 10")
+elif x == 10:
+    print("x is equal to 10")
+else:
+    print("x is less than 10")
+```
+
+In this example, the output will be "x is equal to 10" because that's the condition that is met.
+
+### Conditions:
+
+- Conditions should evaluate to either `True` or `False`.
+- You can use relational operators (`<`, `>`, `==`, `!=`, `>=`, `<=`) to form conditions.
+- Logical operators (`and`, `or`, `not`) can be used to combine conditions.
+
+### When to use:
+
+- Use `if` statements to check an initial condition.
+- Use `elif` statements to check additional conditions after the initial `if`.
+- Use `else` for all other scenarios when none of the above conditions are met.
+
+Understanding the logic behind these conditional statements is crucial for computer science and will be particularly useful as you aspire to become a data scientist, where you'll need to implement various algorithms and data manipulations based on conditions.
